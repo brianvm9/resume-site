@@ -1,0 +1,13 @@
+
+.logo {
+    height: 50px;
+    float: left;
+    top: 0;
+}
+
+.contact {
+    background-image: url('../img/Contact.jpg');
+    background-size: cover;
+    height: 255px;
+    position:relative;
+}

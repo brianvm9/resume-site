@@ -1,13 +1,39 @@
+body {
+    background:url('../img/Contact.jpg');
+    background-size: cover;
+    height: 1036px;
+    width: 2118px;
+    z-index: -1;
+    position: relative;
+}
+
 
 .logo {
     height: 50px;
-    float: left;
-    top: 0;
+    position: absolute;
+    opacity: 1;
 }
 
-.contact {
-    background-image: url('../img/Contact.jpg');
-    background-size: cover;
-    height: 255px;
-    position:relative;
+
+.contact h2 {
+    text-align: center;
+}
+
+#contact-form {
+    height: 500px; 
+}
+
+#contact-form iframe {
+    float: left;
+    border-style: none;
+    bottom: 500px;
+    background-color: rgba(255,255,255,.4);
+    position: relative;
+    top: 100px;
+    left: 15px;
+    width: 750px;
+}
+
+#social-media {
+    margin-top: 8px;   
 }

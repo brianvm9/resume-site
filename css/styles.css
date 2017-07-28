@@ -17,6 +17,14 @@ body {
     height:100%;
     margin: 0;
     padding: 0;
+    background:url('../img/Hero.jpg');
+    background-size:cover;
+    position: absolute;
+    left:0;
+    right:0;
+    z-index: -1;
+    height: 1055px;
+    font-family: 'Squada One', sans-serif;
 }
 
 .text-center {
@@ -32,15 +40,10 @@ body {
     
 }
 
-.hero {
-    background:url('../img/Hero.jpg');
-    background-size:cover;
-    position: absolute;
-    left:0;
-    right:0;
-    z-index: -1;
-    height: 1055px;
-    font-family: 'Squada One', sans-serif;
+
+
+.white {
+    color: #fff;   
 }
 
 .hero h1 {

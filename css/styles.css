@@ -10,14 +10,14 @@ p {
 }
 
 
-/*MAIN CONTENT*/
+/*BACKGROUND*/
 
 body {
     width: 100%;
     height:100%;
     margin: 0;
     padding: 0;
-    background:url('../img/Hero.jpg');
+    background:url('../img/home.jpg');
     background-size:cover;
     position: absolute;
     left:0;
@@ -40,44 +40,11 @@ body {
     
 }
 
-
-
-.white {
-    color: #fff;   
-}
-
-.hero h1 {
-    padding: 0px;
-    position: relative;
-    padding-top: 50px;
-    font-size: 40px;
-    
-}
-
-.hero-title {
-    margin: 0;
-    padding-top: 150px;
-}
-.white {
-    color: #fff;
-    
-}
-
-hr {
-    width: 15%;
-    text-align: center;
-}
-
-
-#description {
-    font-size: 32px;   
-}
-
 /*Navigation Starts*/
 nav {
     display: inline-block;
     position: absolute;
-    right: 895px;
+    right: 875px;
     bottom: 0;
     margin-bottom: 52px;
     text-align: center;
@@ -128,22 +95,50 @@ nav ul li {
 }
 /*Navigation Ends*/
 
-
-/* Social Media Icons */
-
-.fa-facebook-square {
-    color: #3B5998;
+.logo {
+    height: 50px;
+    position: absolute;
+    z-index:2;
 }
 
-.fa-instagram {
-    color: #125688;
+.white {
+    color: #fff;   
 }
 
-.fa-twitter {
-    color: #1da1f2;
+#name {
+    background-color: rgba(0,0,0,.7);
+    position:absolute;
+    width: 2133px;
+    height: 400px;
 }
-/* Social Media Icons Ends*/
-/* Footer */
+
+#name h1 {
+    padding: 0px;
+    position: relative;
+    padding-top: 50px;
+    font-size: 40px;
+    margin-left: 900px;
+}
+
+
+
+.title {
+    margin: 0;
+    padding-top: 150px; 
+}
+
+hr {
+    width: 15%;
+    text-align: center;
+}
+
+
+#description {
+    font-size: 32px;  
+}
+
+
+/*Footer Starts*/
 
 footer {
     background-color: rgba(0,0,0,.7);
@@ -154,6 +149,13 @@ footer {
     height: 90px
 }
 
+
+#social-media {
+    margin-top: 8px;   
+}
+
 #copyright {
-     color: #fff;   
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 0px;
 }

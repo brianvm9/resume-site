@@ -3,6 +3,16 @@ body {
     
 }
 
+#about-me {
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.me {
+    font-size: 32px;   
+}
+
 #copyright {
     margin-top: 70px;   
 }
